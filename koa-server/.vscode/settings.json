@@ -1,0 +1,22 @@
+{
+    /* ========================================= eslint ========================================== */
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true // 是否自动修复eslint
+    },
+    // 允许json注释
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "cSpell.words": [
+        "antd",
+        "bdstatstoken",
+        "classname",
+        "gfhid",
+        "nodenext",
+        "pageid",
+        "qualityinspection",
+        "siteid",
+        "userid",
+        "vpucid"
+    ]
+}
