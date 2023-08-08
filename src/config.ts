@@ -1,1 +1,1 @@
-const CWD_PATH = process.cwd();
+export const CWD_PATH = process.cwd();
