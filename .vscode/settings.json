@@ -12,11 +12,13 @@
         "bdstatstoken",
         "classname",
         "gfhid",
+        "Imlp",
         "nodenext",
         "pageid",
         "qualityinspection",
         "siteid",
         "userid",
-        "vpucid"
+        "vpucid",
+        "vrindex"
     ]
 }
