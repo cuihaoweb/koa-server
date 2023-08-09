@@ -14,6 +14,7 @@ export default {
         file: path.resolve(__dirname, '../dist/index.js'),
         format: 'cjs'
     },
+    external: ['koa-body'],
     plugins: [
         alias({
             entries: [
@@ -21,12 +22,14 @@ export default {
             ]
         }),
         json(),
-        commonjs(),
+        commonjs({
+        }),
         resolver({
-            extensions: ['.mjs', '.js', '.ts', '.json', '.node']
+            extensions: ['.mjs', 'cjs', '.js', '.ts', '.json', '.node']
         }),
         esbuild(),
         babel({
+            exclude: ['node_modules'],
             babelHelpers: 'bundled'
         })
     ]

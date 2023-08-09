@@ -1,6 +1,6 @@
 import fs from 'fs';
 import {resolve} from 'path';
-import {CWD_PATH} from '@/config';
+import {CWD_PATH} from '../config';
 
 export namespace FileDao {
     const PUBLIC_PATH = resolve(CWD_PATH, './public');
